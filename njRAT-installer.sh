@@ -1,6 +1,5 @@
 ﻿#!bin/bash
-apt install git -y
-apt install unzip -y
+apt install unzip zip -y
 cd /sdcard/
 mkdir njRAT
 cd njRAT
@@ -15,4 +14,4 @@ elif n
 then
 echo "njRAT has been installed. Please, remove it on PC for using"
 cd ~
-rm &-rf njRAT-installer.s
+rm -rf njRAT-installer.sh
